@@ -58,7 +58,7 @@ st.header('Line Chart of Bill Numbers in the US Congress Since 1974 ')
 
 # Excluding 'Congress' from the columns to plot
 columns_to_plot = [col for col in df.columns if col != 'Congress']
-print(columns_to_plot)
+
 # Create checkboxes for each data column
 selected_columns = []
 for col in columns_to_plot:
@@ -69,7 +69,6 @@ if selected_columns:
     # Filter the DataFrame based on selected columns
     selected_columns = selected_columns+['Congress Number']
 
-    print(selected_columns)
     filtered_data = df.reset_index()  # Resetting index to use 'Congress Number' as a column in Plotly
     filtered_data = filtered_data.loc[:, selected_columns]
 

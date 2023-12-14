@@ -53,7 +53,7 @@ The primary aim of this project is to make Senate data approachable and insightf
 - **Privacy:** Data is aggregated and anonymized.
 
 ### Roll Call Votes
-- **Source:** [ProPublica Congress API](https://www.propublica.org/datastore/api/propublica-congress-api)
+- **Source:** [ProPublica Congress API](https://www.propublica.orgdatastore/api/propublica-congress-api)
 - **License:** Free for educational and non-commercial use.
 - **Collection Methods:** Aggregated by ProPublica from official congressional records.
 - **Biases/Sampling:** Comprehensive coverage of roll call votes; relies on ProPublica's data integrity.
