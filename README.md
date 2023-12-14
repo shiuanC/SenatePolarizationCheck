@@ -7,7 +7,7 @@
 In an era where political polarization often headlines our daily news, our latest visualization project offers a deep dive into the legislative dynamics of the US Senate. Harnessing the power of data visualization, this project unravels the intricate patterns of bill statuses, bipartisan cooperation, and roll call votes from 2000 to 2022. Aimed at the vibrant data visualization community, this blog post peels back the layers of our project, offering a glimpse into the data, methods, and technologies that brought our insights to life.
 
 ## Visualization Link
-[US Senate Polarization Analysis Visualization](#)
+[US Senate Polarization Analysis Visualization](#https://senatepolarizationcheck.streamlit.app)
 
 ## Current Context
 With rising concerns about political polarization in the US, our project zeroes in on the US Senate, a crucible where national policies are debated and shaped. We explore whether this perceived polarization is mirrored in the Senate's legislative activities and roll call votes.
