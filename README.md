@@ -13,7 +13,24 @@ In an era where political polarization often headlines our daily news, our lates
 With rising concerns about political polarization in the US, our project zeroes in on the US Senate, a crucible where national policies are debated and shaped. We explore whether this perceived polarization is mirrored in the Senate's legislative activities and roll call votes.
 
 ## Intended Audience
-This project primarily targets data enthusiasts, policymakers, political analysts, and anyone intrigued by the ebb and flow of political trends in the US Senate.
+Certainly! Here's the updated section of the intended audience, enriched with the additional context you've provided, and formatted in Markdown:
+
+---
+
+## Intended Audience
+
+Our visualization is designed for individuals who hold an interest in the workings of the US Senate, ranging from those with a foundational understanding of Congress to enthusiasts keen on delving deeper into political dynamics. The application is particularly suited for:
+
+- **Policy Watchers and Political Enthusiasts:** Individuals keen on following legislative processes and political trends within the US Senate will find this tool enlightening. It provides an accessible way to understand complex political dynamics without needing advanced data analysis skills.
+
+- **Educational and Research Purposes:** Students, educators, and researchers in political science, public administration, and related fields can utilize this app as an educational and research tool to study Senate activities and their implications.
+
+- **Journalists and Political Analysts:** This app serves as a resource for those who analyze and report on political events, offering data-driven insights into the legislative behavior of the Senate.
+
+- **General Public with an Interest in Politics:** Even for those who may not have in-depth knowledge of congressional activities but are curious about the state of politics in the Senate, our app offers an intuitive and engaging way to explore and learn.
+
+The primary aim of this project is to make Senate data approachable and insightful, enabling users to explore and draw their own conclusions about the Senate and its senators.
+
 
 ## Data Sources and Transformations
 

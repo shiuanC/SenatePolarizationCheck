@@ -15,7 +15,7 @@ def reformat_name(name):
     return reformatted_name
 
 def get_senator_data():
-    path = '../data/sponsor/'  # Make sure this is the correct path to your folder
+    path = '/data/sponsor/'  # Make sure this is the correct path to your folder
     matrix_df = pd.read_csv(path + 'matrix.csv', index_col=0)
     legislator_df = pd.read_csv(path + 'legislator.csv', index_col=0)
     bills_df = pd.read_csv(path + 'bills.csv', index_col=0)
@@ -87,7 +87,7 @@ def convert_to_int(cell):
 
 def get_bill_data():
         
-    path_name = '../data/'
+    path_name = '/data/'
     df = pd.read_csv(path_name + 'history_bill.csv', index_col=0)
     # Apply the function to each cell in the DataFrame
     df = df.applymap(remove_text_after_newline)
@@ -116,7 +116,7 @@ def get_bill_data():
 
 
 def get_vote_df():
-    path_name = '../data/'
+    path_name = '/data/'
     df = pd.read_csv(path_name + 'roll_call.csv', index_col=0)
     # Aggregate data by congress
     df['democratic_total'] = df['democratic_yes'] + df['democratic_no'] + df['democratic_not_voting']
