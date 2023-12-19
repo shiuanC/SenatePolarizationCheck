@@ -114,7 +114,7 @@ selected_senator_info = st.selectbox('Select a Senator', full_info_list)
 selected_senator = full_info_to_name[selected_senator_info]
    
 # Checkbox to select the party
-    party_filter = st.radio("Choose a party to filter", ['Democrat', 'Republican'])
+party_filter = st.radio("Choose a party to filter", ['Democrat', 'Republican'])
 
 
 
