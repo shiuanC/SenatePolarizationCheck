@@ -12,10 +12,6 @@ In an era where political polarization often headlines our daily news, our lates
 ## Current Context
 With rising concerns about political polarization in the US, our project zeroes in on the US Senate, a crucible where national policies are debated and shaped. We explore whether this perceived polarization is mirrored in the Senate's legislative activities and roll call votes.
 
-## Intended Audience
-Certainly! Here's the updated section of the intended audience, enriched with the additional context you've provided, and formatted in Markdown:
-
----
 
 ## Intended Audience
 
