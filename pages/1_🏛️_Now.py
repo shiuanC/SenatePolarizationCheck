@@ -114,13 +114,13 @@ selected_senator_info = st.selectbox('Select a Senator', full_info_list)
 selected_senator = full_info_to_name[selected_senator_info]
    
 # Checkbox to select the party
+    party_filter = st.radio("Choose a party to filter", ['Democrat', 'Republican'])
 
 
 
 if selected_senator:
     total_weights, altair_chart = create_cooperation_chart(network_df, legislator_df, selected_senator, party_filter)
     pie_chart = create_pie_chart(total_weights)
-    party_filter = st.radio("Choose a party to filter", ['Democrat', 'Republican'])
     
     st.plotly_chart(pie_chart, use_container_width=True)
     st.altair_chart(altair_chart, use_container_width=True)
